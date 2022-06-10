@@ -15,7 +15,7 @@ interface ContactIconProps {
   contactType: string
 }
 
-export const ContactIcon = styled.span`
+export const ContactIcon = styled.span<ContactIconProps>`
   display: flex;
   justify-content: center;
 
@@ -34,7 +34,7 @@ export const ContactIcon = styled.span`
     }
   }
 
-  ${(props: ContactIconProps) =>
+  ${(props) =>
     props.contactType === "linkedin"
       ? css`
           background: var(--color-linkedin);

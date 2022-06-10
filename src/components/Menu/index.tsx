@@ -6,11 +6,15 @@ const Menu = () => {
   return (
     <NavContainer>
       <MenuButton>
-        <Title>Sobre</Title>
+        <Title size="0.95rem" sizeMobile="0.85rem" tag="span">
+          Sobre
+        </Title>
       </MenuButton>
 
       <MenuButton>
-        <Title>Projetos</Title>
+        <Title size="0.95rem" sizeMobile="0.85rem" tag="span">
+          Projetos
+        </Title>
       </MenuButton>
     </NavContainer>
   )

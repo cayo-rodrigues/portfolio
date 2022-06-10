@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components"
 export const GlobalStyle = createGlobalStyle`
   :root {
     --font-text: '';
-    --font-title: '';
+    --font-title: 'Montserrat', sans-serif;
 
     --color-main: #3A00C4;
     --color-main-alt: #5801E4;
@@ -46,7 +46,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   h1, h2, h3, h4, h5, h6 {
-    /* font-family: var(--font-title); */
+    font-family: var(--font-title);
   }
 
   button {
