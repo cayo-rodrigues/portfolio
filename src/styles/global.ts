@@ -2,7 +2,9 @@ import { createGlobalStyle } from "styled-components"
 
 export const GlobalStyle = createGlobalStyle`
   :root {
-    --font-text: '';
+    font-size: 16px;
+
+    --font-text: 'Roboto', sans-serif;
     --font-title: 'Montserrat', sans-serif;
 
     --color-main: #3A00C4;
@@ -18,6 +20,7 @@ export const GlobalStyle = createGlobalStyle`
     --color-github-hover: #1c2128;
 
     --color-white: #fff;
+    --color-off-white: #eee;
     --color-dark-gray: #444;
 
     --transition: all 0.25s ease-in-out;
@@ -41,7 +44,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body, button, input, ::placeholder {
-    /* font-family: var(--font-text); */
+    font-family: var(--font-text);
     color: var(--color-white);
   }
 

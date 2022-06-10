@@ -9,6 +9,8 @@ interface TitleContainerProps {
 }
 
 export const TitleContainer = styled.div<TitleContainerProps>`
+  font-family: var(--font-title);
+
   font-size: ${(props) => props.fontSizeMobile};
   font-weight: ${(props) => props.fontWheightMobile};
 
