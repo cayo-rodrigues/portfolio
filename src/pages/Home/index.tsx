@@ -1,10 +1,15 @@
-import Header from "../../components/Header"
+import Menu from "../../components/Menu"
+import { AsideContainer, Container, MainContainer } from "./styles"
 
 const Home = () => {
   return (
-    <>
-      <Header />
-    </>
+    <Container>
+      <MainContainer>
+        <Menu />
+      </MainContainer>
+
+      <AsideContainer></AsideContainer>
+    </Container>
   )
 }
 

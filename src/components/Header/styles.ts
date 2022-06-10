@@ -25,8 +25,7 @@ export const ContactIcon = styled.span`
   margin: 5px;
   padding: 10px 20px;
 
-  color: var(--color-white);
-  transition: all 0.25s ease-in-out;
+  transition: var(--transition);
   cursor: pointer;
 
   :active {
