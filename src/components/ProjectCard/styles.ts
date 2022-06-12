@@ -11,10 +11,6 @@ export const CardContainer = styled.div`
 
   transition: var(--transition);
 
-  img {
-    width: 38%;
-  }
-
   h4 {
     margin: 10px 0 0;
     padding-bottom: 1rem;
@@ -30,34 +26,34 @@ export const CardContainer = styled.div`
     border-bottom: 1px solid var(--color-dark-gray);
   }
 
-  div:last-child {
-    padding: 1rem 0;
-
-    button {
-      width: 48%;
-      padding: 5px;
-
-      /* background: var(--color-dark-gray); */
-      background: var(--color-highlight);
-      /* background: var(--color-main); */
-      border: 0;
-      margin: 0 1%;
-      border-radius: 0.2rem;
-      font-weight: 500;
-
-      box-shadow: 1px 1px 2px var(--color-black);
-
-      transition: var(--transition);
-
-      :hover {
-        /* background: var(--color-highlight); */
-        box-shadow: 2px 2px 3px var(--color-black);
-      }
-    }
-  }
-
   @media ${devices.tablet} {
+    margin: 6% 0 0 0;
+  }
+`
+export const CardButtonsContainer = styled.div`
+  padding: 1rem 0;
+
+  button {
     width: 48%;
-    margin: 1rem 1%;
+    padding: 5px;
+
+    background: var(--color-highlight);
+    border: 0;
+    margin: 0 1%;
+    border-radius: 0.2rem;
+    font-weight: 500;
+
+    box-shadow: 1px 1px 2px var(--color-black);
+
+    transition: var(--transition);
+
+    :hover {
+      box-shadow: 3px 3px 4px var(--color-black);
+      background: var(--color-highlight-hover);
+    }
+
+    :active {
+      background: var(--color-highlight-active);
+    }
   }
 `

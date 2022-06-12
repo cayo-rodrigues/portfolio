@@ -10,6 +10,8 @@ export const GlobalStyle = createGlobalStyle`
     --color-main: #3A00C4;
     --color-main-alt: #5801E4;
     --color-highlight: #8AC400;
+    --color-highlight-hover: #8AC400f0;
+    --color-highlight-active: #8AC400d0;;
     --color-bg: #222;
     --color-bg-smooth: #262626;
 
@@ -60,6 +62,30 @@ export const GlobalStyle = createGlobalStyle`
 
   a {
     text-decoration: none;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--color-black);
+    border-radius: 8px;
+    border: 1px solid var(--color-border-dark);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-highlight);
+    border-radius: 8px;
+    border: 1px solid var(--color-border-dark);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-highlight-hover);
+  }
+
+  ::-webkit-scrollbar-thumb:active {
+    background: var(--color-highlight-active);
   }
 `
 

@@ -1,6 +1,7 @@
 import { IProject } from "../../interfaces/projects"
+import LogoImg from "../LogoImg"
 import Title from "../Title"
-import { CardContainer } from "./styles"
+import { CardButtonsContainer, CardContainer } from "./styles"
 
 const ProjectCard = ({
   description,
@@ -11,25 +12,27 @@ const ProjectCard = ({
 }: IProject) => {
   return (
     <CardContainer>
-      {/* componentizar imagem */}
-      <img src={logoSrc} alt="Proworking logo" />
+      <LogoImg
+        src={logoSrc}
+        alt="Proworking logo"
+        width="30%"
+        widthMobile="36%"
+      />
+
       <Title tag={"h4"} size={"1.2rem"}>
         {title}
       </Title>
-      {/* criar styled-component */}
+
       <p>{description}</p>
-      {/* criar styled-component */}
-      <div>
+
+      <CardButtonsContainer>
         <a href={projectLink} target="_blank" rel="noopener noreferrer">
-          {/* componentinar botões */}
           <button>Projeto</button>
         </a>
-
         <a href={repoLink} target="_blank" rel="noopener noreferrer">
-          {/* componentinar botões */}
           <button>Repositório</button>
         </a>
-      </div>
+      </CardButtonsContainer>
     </CardContainer>
   )
 }
