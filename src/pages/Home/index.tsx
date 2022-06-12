@@ -1,5 +1,6 @@
 import About from "../../components/About"
 import Menu from "../../components/Menu"
+import ProjectList from "../../components/ProjectList"
 import { AsideContainer, Container, MainContainer } from "./styles"
 
 const Home = () => {
@@ -7,7 +8,8 @@ const Home = () => {
     <Container>
       <MainContainer>
         <Menu />
-        <About />
+        {/* <About /> */}
+        <ProjectList />
       </MainContainer>
 
       <AsideContainer></AsideContainer>

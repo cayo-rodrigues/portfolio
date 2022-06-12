@@ -15,7 +15,7 @@ export const Container = styled.div`
 `
 
 export const MainContainer = styled.main`
-  flex: 1.25;
+  flex: 2;
 `
 
 export const AsideContainer = styled.aside`

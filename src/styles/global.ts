@@ -11,6 +11,7 @@ export const GlobalStyle = createGlobalStyle`
     --color-main-alt: #5801E4;
     --color-highlight: #8AC400;
     --color-bg: #222;
+    --color-bg-smooth: #262626;
 
     --color-border-dark: #151515;
 
@@ -22,6 +23,7 @@ export const GlobalStyle = createGlobalStyle`
     --color-white: #fff;
     --color-off-white: #eee;
     --color-dark-gray: #444;
+    --color-black: #000;
 
     --transition: all 0.25s ease-in-out;
   }
