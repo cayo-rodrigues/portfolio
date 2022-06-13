@@ -13,3 +13,35 @@ export const NavContainer = styled.nav`
     position: relative;
   }
 `
+
+interface MenuTabContainerProps {
+  isActive: boolean
+}
+
+export const MenuTabContainer = styled.button<MenuTabContainerProps>`
+  background: none;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  padding: 16px 12px;
+  flex: 1;
+  text-transform: uppercase;
+
+  transition: var(--transition);
+
+  border-bottom: ${(props) =>
+    props.isActive && "2px solid var(--color-highlight)"};
+
+  &:hover {
+    border-bottom: 2px solid var(--color-main);
+  }
+
+  &:active {
+    div {
+      transform: scale(0.9);
+    }
+  }
+
+  @media ${devices.laptop} {
+    padding: 5px 12px;
+  }
+`

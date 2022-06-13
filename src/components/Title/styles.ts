@@ -14,6 +14,8 @@ export const TitleContainer = styled.div<TitleContainerProps>`
   font-size: ${(props) => props.fontSizeMobile};
   font-weight: ${(props) => props.fontWheightMobile};
 
+  transition: var(--transition);
+
   @media ${devices.tablet} {
     font-size: ${(props) => props.fontSize};
     font-weight: ${(props) => props.fontWheight};

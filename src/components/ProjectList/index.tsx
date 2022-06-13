@@ -1,5 +1,5 @@
 import ProjectCard from "../ProjectCard"
-import { useProjects } from "../../contexts/projects"
+import { useProjects } from "../../contexts/ProjectsContext"
 import { Container, ProjectsContainer } from "./styles"
 
 const ProjectList = () => {

@@ -6,6 +6,6 @@ export interface IProject {
   projectLink: string
 }
 
-export interface ProjectsContextData {
+export interface IProjectsContextData {
   projects: IProject[]
 }

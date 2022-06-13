@@ -49,11 +49,11 @@ export const CardButtonsContainer = styled.div`
 
     :hover {
       box-shadow: 3px 3px 4px var(--color-black);
-      background: var(--color-highlight-hover);
+      background: var(--color-main);
     }
 
     :active {
-      background: var(--color-highlight-active);
+      background: var(--color-main-active);
     }
   }
 `

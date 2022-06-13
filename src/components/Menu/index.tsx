@@ -1,21 +1,29 @@
-import MenuButton from "../MenuButton"
+import { useMenu } from "../../contexts/MenuContext"
 import Title from "../Title"
-import { NavContainer } from "./styles"
+import { MenuTabContainer, NavContainer } from "./styles"
 
 const Menu = () => {
+  const { activeTab, switchTab } = useMenu()
+
   return (
     <NavContainer>
-      <MenuButton>
+      <MenuTabContainer
+        isActive={activeTab === "about"}
+        onClick={() => switchTab("about")}
+      >
         <Title size="0.95rem" sizeMobile="0.85rem" tag="span">
           Sobre
         </Title>
-      </MenuButton>
+      </MenuTabContainer>
 
-      <MenuButton>
+      <MenuTabContainer
+        isActive={activeTab === "projects"}
+        onClick={() => switchTab("projects")}
+      >
         <Title size="0.95rem" sizeMobile="0.85rem" tag="span">
           Projetos
         </Title>
-      </MenuButton>
+      </MenuTabContainer>
     </NavContainer>
   )
 }

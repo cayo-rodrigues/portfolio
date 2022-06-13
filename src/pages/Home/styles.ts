@@ -21,7 +21,10 @@ export const MainContainer = styled.main`
 export const AsideContainer = styled.aside`
   display: none;
   flex: 1;
+
   @media ${devices.laptop} {
     display: unset;
   }
 `
+
+export const FooterContainer = styled.footer``

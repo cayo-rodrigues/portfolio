@@ -1,8 +1,13 @@
-import { IParentComponentProps } from "../interfaces/general"
-import { ProjectsProvider } from "./projects"
+import { IParentComponentProps } from "../interfaces"
+import { MenuProvider } from "./MenuContext"
+import { ProjectsProvider } from "./ProjectsContext"
 
 const Providers = ({ children }: IParentComponentProps) => {
-  return <ProjectsProvider>{children}</ProjectsProvider>
+  return (
+    <ProjectsProvider>
+      <MenuProvider>{children}</MenuProvider>
+    </ProjectsProvider>
+  )
 }
 
 export default Providers
