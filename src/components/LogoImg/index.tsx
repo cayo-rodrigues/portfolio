@@ -1,13 +1,5 @@
+import { ILogoImgProps } from "../../interfaces/logoImg"
 import { ImgContainer } from "./styles"
-
-interface LogoImgProps {
-  src: string
-  alt: string
-  width?: string
-  widthMobile?: string
-  height?: string
-  heightMobile?: string
-}
 
 const LogoImg = ({
   src,
@@ -16,7 +8,7 @@ const LogoImg = ({
   width = "50%",
   heightMobile = height,
   widthMobile = width,
-}: LogoImgProps) => {
+}: ILogoImgProps) => {
   return (
     <ImgContainer
       src={src}

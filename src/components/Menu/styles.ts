@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { IMenuTabContainerProps } from "../../interfaces/menu"
 import { devices } from "../../styles/global"
 
 export const NavContainer = styled.nav`
@@ -14,11 +15,7 @@ export const NavContainer = styled.nav`
   }
 `
 
-interface MenuTabContainerProps {
-  isActive: boolean
-}
-
-export const MenuTabContainer = styled.button<MenuTabContainerProps>`
+export const MenuTabContainer = styled.button<IMenuTabContainerProps>`
   background: none;
   border: 0;
   border-bottom: 2px solid transparent;

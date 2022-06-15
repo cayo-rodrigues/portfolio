@@ -1,14 +1,8 @@
 import styled from "styled-components"
+import { ITitleContainerProps } from "../../interfaces/title"
 import { devices } from "../../styles/global"
 
-interface TitleContainerProps {
-  fontSize: string
-  fontWheight: number
-  fontSizeMobile?: string
-  fontWheightMobile?: number
-}
-
-export const TitleContainer = styled.div<TitleContainerProps>`
+export const TitleContainer = styled.div<ITitleContainerProps>`
   font-family: var(--font-title);
 
   font-size: ${(props) => props.fontSizeMobile};

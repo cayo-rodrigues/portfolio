@@ -4,6 +4,11 @@ import { devices } from "../../styles/global"
 export const Container = styled.div`
   padding: 10%;
   display: flex;
+  flex-direction: column;
+
+  > div {
+    display: flex;
+  }
 
   @media ${devices.tablet} {
     padding: 7% 10%;

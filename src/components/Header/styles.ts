@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components"
+import { IContactIconContainerProps } from "../../interfaces/header"
 import { devices } from "../../styles/global"
 
 export const Container = styled.header`
@@ -11,11 +12,7 @@ export const ContactContainer = styled.div`
   display: flex;
 `
 
-interface ContactIconProps {
-  contactType: string
-}
-
-export const ContactIcon = styled.span<ContactIconProps>`
+export const ContactIcon = styled.span<IContactIconContainerProps>`
   display: flex;
   justify-content: center;
 

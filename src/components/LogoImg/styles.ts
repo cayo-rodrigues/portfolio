@@ -1,14 +1,8 @@
 import styled from "styled-components"
+import { IImgContainerProps } from "../../interfaces/logoImg"
 import { devices } from "../../styles/global"
 
-interface ImgContainerProps {
-  width?: string
-  height?: string
-  widthMobile?: string
-  heightMobile?: string
-}
-
-export const ImgContainer = styled.img<ImgContainerProps>`
+export const ImgContainer = styled.img<IImgContainerProps>`
   width: ${(props) => props.widthMobile};
   height: ${(props) => props.heightMobile};
 

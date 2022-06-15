@@ -1,14 +1,5 @@
-import { ElementType, ReactNode } from "react"
+import { ITitleProps } from "../../interfaces/title"
 import { TitleContainer } from "./styles"
-
-interface TitleProps {
-  children?: ReactNode
-  size?: string
-  sizeMobile?: string
-  wheight?: number
-  wheightMobile?: number
-  tag?: ElementType
-}
 
 const Title = ({
   children,
@@ -17,7 +8,7 @@ const Title = ({
   sizeMobile = size,
   wheight = 600,
   wheightMobile = wheight,
-}: TitleProps) => {
+}: ITitleProps) => {
   return (
     <TitleContainer
       fontSize={size}

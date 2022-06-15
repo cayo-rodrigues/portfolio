@@ -1,6 +1,7 @@
 import About from "../../components/About"
 import Menu from "../../components/Menu"
 import ProjectList from "../../components/ProjectList"
+import TechList from "../../components/TechList"
 import { useMenu } from "../../contexts/MenuContext"
 import {
   AsideContainer,
@@ -14,14 +15,18 @@ const Home = () => {
 
   return (
     <Container>
-      <MainContainer>
-        <Menu />
-        {activeTab === "about" ? <About /> : <ProjectList />}
-      </MainContainer>
+      <div>
+        <MainContainer>
+          <Menu />
+          {activeTab === "about" ? <About /> : <ProjectList />}
+        </MainContainer>
 
-      <AsideContainer></AsideContainer>
+        <AsideContainer></AsideContainer>
+      </div>
 
-      <FooterContainer></FooterContainer>
+      <FooterContainer>
+        <TechList />
+      </FooterContainer>
     </Container>
   )
 }
