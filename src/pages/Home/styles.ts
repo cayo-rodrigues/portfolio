@@ -28,7 +28,15 @@ export const AsideContainer = styled.aside`
   flex: 1;
 
   @media ${devices.laptop} {
-    display: unset;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    img {
+      width: 70%;
+      position: sticky;
+      top: 8%;
+    }
   }
 `
 

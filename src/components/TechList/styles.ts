@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { devices } from "../../styles/global"
 
 export const TechsContainer = styled.div`
-  margin-top: 10%;
+  margin-top: 2%;
 
   h3 {
     text-align: center;

@@ -1,3 +1,5 @@
+import avatarHiImg from "../../assets/images/avatar1.png"
+import avatarPointingImg from "../../assets/images/avatar2.png"
 import About from "../../components/About"
 import Menu from "../../components/Menu"
 import ProjectList from "../../components/ProjectList"
@@ -21,7 +23,12 @@ const Home = () => {
           {activeTab === "about" ? <About /> : <ProjectList />}
         </MainContainer>
 
-        <AsideContainer></AsideContainer>
+        <AsideContainer>
+          <img
+            src={activeTab === "about" ? avatarHiImg : avatarPointingImg}
+            alt="Avatar waving hi!"
+          />
+        </AsideContainer>
       </div>
 
       <FooterContainer>
