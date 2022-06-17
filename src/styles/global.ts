@@ -7,12 +7,12 @@ export const GlobalStyle = createGlobalStyle`
     --font-text: 'Roboto', sans-serif;
     --font-title: 'Montserrat', sans-serif;
 
-    --color-main: #3A00C4;
-    --color-main-alt: #5801E4;
-    --color-main-active: #2b00b3e0;
-    --color-highlight: #8AC400;
-    --color-highlight-hover: #8AC400f0;
-    --color-highlight-active: #8AC400d0;
+    --color-main: #8AC400;
+    --color-main-hover: #8AC400f0;
+    --color-main-active: #8AC400d0;
+    --color-highlight: #3A00C4;
+    --color-highlight-alt: #5801E4;
+    --color-highlight-active: #2b00b3e0;
     --color-bg: #222;
     --color-bg-smooth: #262626;
 

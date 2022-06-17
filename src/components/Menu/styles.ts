@@ -25,11 +25,10 @@ export const MenuTabContainer = styled.button<IMenuTabContainerProps>`
 
   transition: var(--transition);
 
-  border-bottom: ${(props) =>
-    props.isActive && "2px solid var(--color-highlight)"};
+  border-bottom: ${(props) => props.isActive && "2px solid var(--color-main)"};
 
   &:hover {
-    border-bottom: 2px solid var(--color-main);
+    border-bottom: 2px solid var(--color-highlight);
   }
 
   &:active {

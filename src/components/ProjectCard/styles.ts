@@ -37,7 +37,7 @@ export const CardButtonsContainer = styled.div`
     width: 48%;
     padding: 5px;
 
-    background: var(--color-highlight);
+    background: var(--color-main);
     border: 0;
     margin: 0 1%;
     border-radius: 0.2rem;
@@ -49,11 +49,11 @@ export const CardButtonsContainer = styled.div`
 
     :hover {
       box-shadow: 3px 3px 4px var(--color-black);
-      background: var(--color-main);
+      background: var(--color-highlight);
     }
 
     :active {
-      background: var(--color-main-active);
+      background: var(--color-highlight-active);
     }
   }
 `
