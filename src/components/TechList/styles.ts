@@ -2,11 +2,15 @@ import styled from "styled-components"
 import { devices } from "../../styles/global"
 
 export const TechsContainer = styled.div`
-  margin-top: 2%;
+  margin-top: 10%;
 
   h3 {
     text-align: center;
-    margin-bottom: 48px;
+    margin-bottom: 2rem;
+  }
+
+  @media ${devices.laptop} {
+    margin-top: 4%;
   }
 `
 export const TechListContainer = styled.ul`

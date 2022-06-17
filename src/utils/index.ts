@@ -1,4 +1,5 @@
 import pwImg from "../assets/projectLogos/pw.png"
+import yocaImg from "../assets/projectLogos/yoca.png"
 
 import pyImg from "../assets/techLogos/py.png"
 import jsImg from "../assets/techLogos/js.png"
@@ -25,20 +26,12 @@ export const projectList: IProject[] = [
     repoLink: "https://github.com/cayo-rodrigues/capstone-m3",
   },
   {
-    title: "Proworking",
+    title: "Yoca",
     description:
-      "Um projeto cujo objetivo é conectar de forma fácil e simples prestadores de serviço informais com pessoas que precisam desses serviços",
-    logoSrc: pwImg,
-    projectLink: "https://proworking.vercel.app/",
-    repoLink: "https://github.com/cayo-rodrigues/capstone-m3",
-  },
-  {
-    title: "Proworking",
-    description:
-      "Um projeto cujo objetivo é conectar de forma fácil e simples prestadores de serviço informais com pessoas que precisam desses serviços",
-    logoSrc: pwImg,
-    projectLink: "https://proworking.vercel.app/",
-    repoLink: "https://github.com/cayo-rodrigues/capstone-m3",
+      "Uma api com o objetivo de gerenciar os processos envolvidos na administração de um restaurante, com controle de estoque semi-automático",
+    logoSrc: yocaImg,
+    projectLink: "https://cayoca.herokuapp.com/api/docs/",
+    repoLink: "https://github.com/cayo-rodrigues/yoca",
   },
 ]
 

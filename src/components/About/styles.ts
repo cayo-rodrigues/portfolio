@@ -4,10 +4,22 @@ import { devices } from "../../styles/global"
 export const AboutContainer = styled.section`
   padding: 5% 0;
 
+  a {
+    color: var(--color-link-text);
+
+    :hover {
+      text-decoration: underline;
+    }
+  }
+
   p {
-    line-height: 1.5rem;
+    line-height: 1.6rem;
     color: var(--color-off-white);
     font-size: 0.9rem;
+  }
+
+  p + p {
+    margin-top: 8%;
   }
 
   @media ${devices.laptop} {
@@ -15,6 +27,10 @@ export const AboutContainer = styled.section`
 
     p {
       font-size: 1rem;
+    }
+
+    p + p {
+      margin-top: 2%;
     }
   }
 `

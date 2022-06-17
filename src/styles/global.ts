@@ -17,6 +17,7 @@ export const GlobalStyle = createGlobalStyle`
     --color-bg-smooth: #262626;
 
     --color-border-dark: #151515;
+    --color-link-text: #00ffff;
 
     --color-linkedin: #004182;
     --color-linkedin-hover: #003071;
