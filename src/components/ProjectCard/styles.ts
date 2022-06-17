@@ -24,6 +24,13 @@ export const CardContainer = styled.div`
     line-height: 1.2rem;
     padding: 1rem 0;
     border-bottom: 1px solid var(--color-dark-gray);
+
+    @media ${devices.tablet} {
+      height: calc(1.2rem * 6);
+
+      display: flex;
+      align-items: center;
+    }
   }
 
   @media ${devices.tablet} {
