@@ -6,6 +6,7 @@ import jsImg from "../assets/techLogos/js.png"
 import tsImg from "../assets/techLogos/ts.png"
 import reactImg from "../assets/techLogos/react.png"
 import nodeImg from "../assets/techLogos/node.png"
+import expressImg from "../assets/techLogos/express.svg"
 import typeormImg from "../assets/techLogos/typeorm.png"
 import psqlImg from "../assets/techLogos/psql.png"
 import sqliteImg from "../assets/techLogos/sqlite.png"
@@ -63,6 +64,10 @@ export const techList: ITech[] = [
   {
     logoSrc: typeormImg,
     name: "TypeORM",
+  },
+  {
+    logoSrc: expressImg,
+    name: "Express",
   },
   {
     logoSrc: psqlImg,
