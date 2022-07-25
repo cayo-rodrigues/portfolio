@@ -1,6 +1,7 @@
 import pwImg from "../assets/projectLogos/pw.png";
 import yocaImg from "../assets/projectLogos/yoca.png";
 import primeiraFilaImg from "../assets/projectLogos/pf.png";
+import bolinhaImg from "../assets/projectLogos/bolinha.png";
 
 import pyImg from "../assets/techLogos/py.png";
 import jsImg from "../assets/techLogos/js.png";
@@ -16,12 +17,19 @@ import htmlImg from "../assets/techLogos/html.png";
 import cssImg from "../assets/techLogos/css.png";
 import s3Img from "../assets/techLogos/s3.png";
 import dockerImg from "../assets/techLogos/docker.png";
-import drfImg from "../assets/techLogos/drf.png";
 
 import { IProject } from "../interfaces/projects";
 import { ITech } from "../interfaces/techs";
 
 export const projectList: IProject[] = [
+  {
+    title: "Primeira Fila",
+    description:
+      "Uma aplicação backend que permite um usuário ver quais filmes estão em cartaz e onde eles estão sendo exibidos, além de comprar ingressos online. Ao mesmo tempo, gerentes de cinema podem cadastrar seus cinemas e gerenciá-los.",
+    logoSrc: primeiraFilaImg,
+    projectLink: "http://primeira-fila.herokuapp.com/docs/",
+    repoLink: "https://github.com/cayo-rodrigues/primeira-fila",
+  },
   {
     title: "Proworking",
     description:
@@ -39,12 +47,12 @@ export const projectList: IProject[] = [
     repoLink: "https://github.com/cayo-rodrigues/yoca",
   },
   {
-    title: "Primeira Fila",
+    title: "Jogo da bolinha",
     description:
-      "Uma aplicação backend que permite um usuário ver quais filmes estão em cartaz e onde eles estão sendo exibidos, além de comprar ingressos online. Ao mesmo tempo, gerentes de cinema podem cadastrar seus cinemas e gerenciá-los.",
-    logoSrc: primeiraFilaImg,
-    projectLink: "http://primeira-fila.herokuapp.com/docs/",
-    repoLink: "https://github.com/cayo-rodrigues/primeira-fila",
+      "Um joguinho simples cujo objetivo é não deixar a bola cair. Conforme o tempo passa o jogador acumula pontos, e a bolinha fica mais rápida.",
+    logoSrc: bolinhaImg,
+    projectLink: "https://cayo-rodrigues.github.io/jogo-da-bolinha/",
+    repoLink: "https://github.com/cayo-rodrigues/jogo-da-bolinha",
   },
 ];
 
