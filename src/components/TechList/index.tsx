@@ -7,7 +7,7 @@ const TechList = () => {
   return (
     <TechsContainer>
       <Title size="1.55rem" tag="h3">
-        Techs
+        Ferramentas e Tecnologias
       </Title>
       <TechListContainer>
         {techList.map((tech, index) => (

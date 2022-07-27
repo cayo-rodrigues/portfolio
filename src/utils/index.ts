@@ -2,6 +2,7 @@ import pwImg from "../assets/projectLogos/pw.png";
 import yocaImg from "../assets/projectLogos/yoca.png";
 import primeiraFilaImg from "../assets/projectLogos/pf.png";
 import bolinhaImg from "../assets/projectLogos/bolinha.png";
+import joKingImg from "../assets/projectLogos/jk.png";
 
 import pyImg from "../assets/techLogos/py.png";
 import jsImg from "../assets/techLogos/js.png";
@@ -33,7 +34,7 @@ export const projectList: IProject[] = [
   {
     title: "Proworking",
     description:
-      "Um projeto cujo objetivo é conectar de forma fácil e simples prestadores de serviço informais com pessoas que precisam desses serviços",
+      "Um projeto cujo objetivo é conectar de forma fácil e simples prestadores de serviço informais com pessoas que precisam desses serviços.",
     logoSrc: pwImg,
     projectLink: "https://proworking.vercel.app/",
     repoLink: "https://github.com/cayo-rodrigues/capstone-m3",
@@ -41,10 +42,18 @@ export const projectList: IProject[] = [
   {
     title: "Yoca",
     description:
-      "Uma api com o objetivo de gerenciar os processos envolvidos na administração de um restaurante, com controle de estoque semi-automático",
+      "Uma api com o objetivo de gerenciar os processos envolvidos na administração de um restaurante, com controle de estoque semi-automático.",
     logoSrc: yocaImg,
     projectLink: "https://cayoca.herokuapp.com/api/docs/",
     repoLink: "https://github.com/cayo-rodrigues/yoca",
+  },
+  {
+    title: "JoKing",
+    description:
+      "Meu primeiro projeto full stack. Trata-se de uma rede social onde você pode compartilhar, curtir e comentar piadas.",
+    logoSrc: joKingImg,
+    projectLink: "https://jo-king.herokuapp.com/",
+    repoLink: "https://github.com/cayo-rodrigues/joking",
   },
   {
     title: "Jogo da bolinha",
