@@ -7,6 +7,7 @@ import yocaImg from "../assets/projectLogos/yoca.png";
 import primeiraFilaImg from "../assets/projectLogos/pf.png";
 import bolinhaImg from "../assets/projectLogos/bolinha.png";
 import joKingImg from "../assets/projectLogos/jk.png";
+import pypiImg from "../assets/projectLogos/pypi.png";
 
 // local tech logos
 import expressImg from "../assets/techLogos/express.svg";
@@ -56,20 +57,28 @@ export const projectList: IProject[] = [
     repoLink: "https://github.com/cayo-rodrigues/capstone-m3",
   },
   {
-    title: "Yoca",
-    description:
-      "Uma api com o objetivo de gerenciar os processos envolvidos na administração de um restaurante, com controle de estoque semi-automático.",
-    logoSrc: yocaImg,
-    projectLink: "https://cayoca.herokuapp.com/api/docs/",
-    repoLink: "https://github.com/cayo-rodrigues/yoca",
-  },
-  {
     title: "JoKing",
     description:
       "Meu primeiro projeto full stack. Trata-se de uma rede social onde você pode compartilhar, curtir e comentar piadas.",
     logoSrc: joKingImg,
     projectLink: "https://jo-king.herokuapp.com/",
     repoLink: "https://github.com/cayo-rodrigues/joking",
+  },
+  {
+    title: "dj-drf-utils",
+    description:
+      "Um pacote Python, upado no Pypi, que possui funções e classes úteis para serem usadas em projetos Django, especialmente com Django Rest Framework, feito para facilitar a vida de desenvolvedores.",
+    logoSrc: pypiImg,
+    projectLink: "https://pypi.org/project/dj-drf-utils/",
+    repoLink: "https://github.com/cayo-rodrigues/dj-drf-utils",
+  },
+  {
+    title: "Yoca",
+    description:
+      "Uma api com o objetivo de gerenciar os processos envolvidos na administração de um restaurante, com controle de estoque semi-automático.",
+    logoSrc: yocaImg,
+    projectLink: "https://cayoca.herokuapp.com/api/docs/",
+    repoLink: "https://github.com/cayo-rodrigues/yoca",
   },
   {
     title: "Jogo da bolinha",
