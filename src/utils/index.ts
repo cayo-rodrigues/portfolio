@@ -38,6 +38,10 @@ const awsImg =
   "https://camo.githubusercontent.com/9b70a59580f9cdb57e2083a8085cfb55614d3c145cc56ac8a3d3b81870d0f3d1/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f616d617a6f6e77656273657276696365732f616d617a6f6e77656273657276696365732d6f726967696e616c2e737667";
 const ubuntuImg =
   "https://camo.githubusercontent.com/3e8e4170de9ac8fc3a7bbe397f78556429a19e26dbefe7020d1e8c25c6ace93c/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f7562756e74752f7562756e74752d706c61696e2e737667";
+const redisImg =
+  "https://camo.githubusercontent.com/2af3e6d89e3c22ea6bbde81c96d0d0674bbed3d5e26c572e0b6ad247732c4375/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f72656469732f72656469732d6f726967696e616c2e737667";
+const gitImg =
+  "https://camo.githubusercontent.com/dc9e7e657b4cd5ba7d819d1a9ce61434bd0ddbb94287d7476b186bd783b62279/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6769742f6769742d6f726967696e616c2e737667";
 
 export const projectList: IProject[] = [
   {
@@ -131,7 +135,10 @@ export const techList: ITech[] = [
     logoSrc: sqliteImg,
     name: "SQLite",
   },
-
+  {
+    logoSrc: redisImg,
+    name: "Redis",
+  },
   {
     logoSrc: htmlImg,
     name: "HTML",
@@ -151,5 +158,9 @@ export const techList: ITech[] = [
   {
     logoSrc: ubuntuImg,
     name: "Ubuntu",
+  },
+  {
+    logoSrc: gitImg,
+    name: "Git",
   },
 ];
