@@ -1,7 +1,7 @@
-import { IProject } from "../../interfaces/projects"
-import LogoImg from "../LogoImg"
-import Title from "../Title"
-import { CardButtonsContainer, CardContainer } from "./styles"
+import { IProject } from "../../interfaces/projects";
+import LogoImg from "../LogoImg";
+import Title from "../Title";
+import { CardButtonsContainer, CardContainer } from "./styles";
 
 const ProjectCard = ({
   description,
@@ -34,7 +34,7 @@ const ProjectCard = ({
         </a>
       </CardButtonsContainer>
     </CardContainer>
-  )
-}
+  );
+};
 
-export default ProjectCard
+export default ProjectCard;

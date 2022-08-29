@@ -31,7 +31,7 @@ export const projectList: IProject[] = [
   {
     title: "dj-drf-utils",
     description:
-      "Um pacote Python, upado no Pypi, que possui funções e classes úteis para serem usadas em projetos Django, especialmente com Django Rest Framework, feito para facilitar a vida de desenvolvedores.",
+      "Um pacote Python que possui funções e classes úteis para serem usadas em projetos Django, especialmente com Django Rest Framework, feito para facilitar a vida de desenvolvedores.",
     logoSrc: PL.pypiImg,
     projectLink: "https://pypi.org/project/dj-drf-utils/",
     repoLink: "https://github.com/cayo-rodrigues/dj-drf-utils",

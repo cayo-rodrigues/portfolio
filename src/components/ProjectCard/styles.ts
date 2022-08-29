@@ -1,10 +1,10 @@
-import styled from "styled-components"
-import { devices } from "../../styles/global"
+import styled from "styled-components";
+import { devices } from "../../styles/global";
 
 export const CardContainer = styled.div`
   text-align: center;
   padding: 1rem;
-  margin: 1rem;
+  margin: 1rem 0;
   box-shadow: 2px 2px 5px var(--color-black);
   border-radius: 8px;
   background: var(--color-bg-smooth);
@@ -36,7 +36,8 @@ export const CardContainer = styled.div`
   @media ${devices.tablet} {
     margin: 6% 0 0 0;
   }
-`
+`;
+
 export const CardButtonsContainer = styled.div`
   padding: 1rem 0;
 
@@ -63,4 +64,4 @@ export const CardButtonsContainer = styled.div`
       background: var(--color-highlight-active);
     }
   }
-`
+`;
