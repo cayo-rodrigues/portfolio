@@ -1,7 +1,7 @@
-import { IProject } from "../interfaces/projects";
+import { IProject } from "../interfaces/projects"
 
 // project logos
-import * as PL from "./projectLogos";
+import * as PL from "./projectLogos"
 
 export const projectList: IProject[] = [
   {
@@ -21,12 +21,12 @@ export const projectList: IProject[] = [
     repoLink: "https://github.com/cayo-rodrigues/capstone-m3",
   },
   {
-    title: "JoKing",
+    title: "Yoca",
     description:
-      "Meu primeiro projeto full stack. Trata-se de uma rede social onde você pode compartilhar, curtir e comentar piadas.",
-    logoSrc: PL.joKingImg,
-    projectLink: "https://jo-king.herokuapp.com/",
-    repoLink: "https://github.com/cayo-rodrigues/joking",
+      "Uma api com o objetivo de gerenciar os processos envolvidos na administração de um restaurante, com controle de estoque semi-automático.",
+    logoSrc: PL.yocaImg,
+    projectLink: "https://cayoca.herokuapp.com/api/docs/",
+    repoLink: "https://github.com/cayo-rodrigues/yoca",
   },
   {
     title: "dj-drf-utils",
@@ -37,12 +37,20 @@ export const projectList: IProject[] = [
     repoLink: "https://github.com/cayo-rodrigues/dj-drf-utils",
   },
   {
-    title: "Yoca",
+    title: "GSiC",
     description:
-      "Uma api com o objetivo de gerenciar os processos envolvidos na administração de um restaurante, com controle de estoque semi-automático.",
-    logoSrc: PL.yocaImg,
-    projectLink: "https://cayoca.herokuapp.com/api/docs/",
-    repoLink: "https://github.com/cayo-rodrigues/yoca",
+      'Essa sigla significa "Grocery Store in C". Este é um programa desenvolvido em linguagem C, capaz de realizar tarefas comuns em um caixa de supermercado.',
+    logoSrc: PL.gsicImg,
+    projectLink: "https://pypi.org/project/dj-drf-utils/",
+    repoLink: "https://github.com/cayo-rodrigues/gsic",
+  },
+  {
+    title: "JoKing",
+    description:
+      "Meu primeiro projeto full stack. Trata-se de uma rede social onde você pode compartilhar, curtir e comentar piadas.",
+    logoSrc: PL.joKingImg,
+    projectLink: "https://jo-king.herokuapp.com/",
+    repoLink: "https://github.com/cayo-rodrigues/joking",
   },
   {
     title: "Jogo da bolinha",
@@ -52,4 +60,4 @@ export const projectList: IProject[] = [
     projectLink: "https://cayo-rodrigues.github.io/jogo-da-bolinha/",
     repoLink: "https://github.com/cayo-rodrigues/jogo-da-bolinha",
   },
-];
+]

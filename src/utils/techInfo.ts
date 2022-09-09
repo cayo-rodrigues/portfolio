@@ -1,7 +1,7 @@
-import { ITech } from "../interfaces/techs";
+import { ITech } from "../interfaces/techs"
 
 // tech logos
-import * as TL from "./techLogos";
+import * as TL from "./techLogos"
 
 export const techList: ITech[] = [
   {
@@ -17,6 +17,10 @@ export const techList: ITech[] = [
     name: "React",
   },
   {
+    logoSrc: TL.nodeImg,
+    name: "Node.js",
+  },
+  {
     logoSrc: TL.tsImg,
     name: "Typescript",
   },
@@ -25,16 +29,24 @@ export const techList: ITech[] = [
     name: "Javascript",
   },
   {
-    logoSrc: TL.nodeImg,
-    name: "Node.js",
-  },
-  {
     logoSrc: TL.typeormImg,
     name: "TypeORM",
   },
   {
     logoSrc: TL.expressImg,
     name: "Express",
+  },
+  {
+    logoSrc: TL.htmlImg,
+    name: "HTML",
+  },
+  {
+    logoSrc: TL.cssImg,
+    name: "CSS",
+  },
+  {
+    logoSrc: TL.cImg,
+    name: "C",
   },
   {
     logoSrc: TL.psqlImg,
@@ -47,14 +59,6 @@ export const techList: ITech[] = [
   {
     logoSrc: TL.redisImg,
     name: "Redis",
-  },
-  {
-    logoSrc: TL.htmlImg,
-    name: "HTML",
-  },
-  {
-    logoSrc: TL.cssImg,
-    name: "CSS",
   },
   {
     logoSrc: TL.awsImg,
@@ -72,4 +76,4 @@ export const techList: ITech[] = [
     logoSrc: TL.gitImg,
     name: "Git",
   },
-];
+]
