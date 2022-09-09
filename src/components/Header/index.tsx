@@ -1,9 +1,33 @@
-import { ContactContainer, ContactIcon, Container } from "./styles"
+import {
+  ContactContainer,
+  ContactIcon,
+  Container,
+  LangButton,
+  LangsContainer,
+} from "./styles"
 import { FaGithub, FaLinkedin } from "react-icons/fa"
+import { useLang } from "../../contexts/LangContext"
 
 const Header = () => {
+  const { currentLang, switchLang } = useLang()
+
   return (
     <Container>
+      <LangsContainer>
+        <LangButton
+          selected={currentLang === "en"}
+          onClick={() => switchLang("en")}
+        >
+          <span>EN</span>
+        </LangButton>
+        <LangButton
+          selected={currentLang === "pt"}
+          onClick={() => switchLang("pt")}
+        >
+          <span>PT</span>
+        </LangButton>
+      </LangsContainer>
+
       <ContactContainer>
         <a
           href="https://github.com/cayo-rodrigues"

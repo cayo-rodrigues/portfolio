@@ -1,9 +1,22 @@
+import { useLang } from "../../contexts/LangContext"
 import { useMenu } from "../../contexts/MenuContext"
 import Title from "../Title"
 import { MenuTabContainer, NavContainer } from "./styles"
 
 const Menu = () => {
   const { activeTab, switchTab } = useMenu()
+  const { currentLang } = useLang()
+
+  const menuTexts = {
+    about: {
+      pt: "Sobre",
+      en: "About",
+    },
+    projects: {
+      pt: "Projetos",
+      en: "Projects",
+    },
+  }
 
   return (
     <NavContainer>
@@ -12,7 +25,7 @@ const Menu = () => {
         onClick={() => switchTab("about")}
       >
         <Title size="0.95rem" sizeMobile="0.85rem" tag="span">
-          Sobre
+          {menuTexts.about[currentLang]}
         </Title>
       </MenuTabContainer>
 
@@ -21,7 +34,7 @@ const Menu = () => {
         onClick={() => switchTab("projects")}
       >
         <Title size="0.95rem" sizeMobile="0.85rem" tag="span">
-          Projetos
+          {menuTexts.projects[currentLang]}
         </Title>
       </MenuTabContainer>
     </NavContainer>

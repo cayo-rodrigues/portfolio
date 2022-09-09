@@ -1,7 +1,8 @@
-import { IProject } from "../../interfaces/projects";
-import LogoImg from "../LogoImg";
-import Title from "../Title";
-import { CardButtonsContainer, CardContainer } from "./styles";
+import { useLang } from "../../contexts/LangContext"
+import { IProject } from "../../interfaces/projects"
+import LogoImg from "../LogoImg"
+import Title from "../Title"
+import { CardButtonsContainer, CardContainer } from "./styles"
 
 const ProjectCard = ({
   description,
@@ -10,6 +11,19 @@ const ProjectCard = ({
   repoLink,
   title,
 }: IProject) => {
+  const { currentLang } = useLang()
+
+  const buttonsText = {
+    project: {
+      pt: "Ver Projeto",
+      en: "See Project",
+    },
+    repo: {
+      pt: "Código Fonte",
+      en: "Source Code",
+    },
+  }
+
   return (
     <CardContainer>
       <LogoImg
@@ -23,18 +37,18 @@ const ProjectCard = ({
         {title}
       </Title>
 
-      <p>{description}</p>
+      <p>{description[currentLang]}</p>
 
       <CardButtonsContainer>
         <a href={projectLink} target="_blank" rel="noopener noreferrer">
-          <button>Projeto</button>
+          <button>{buttonsText.project[currentLang]}</button>
         </a>
         <a href={repoLink} target="_blank" rel="noopener noreferrer">
-          <button>Repositório</button>
+          <button>{buttonsText.repo[currentLang]}</button>
         </a>
       </CardButtonsContainer>
     </CardContainer>
-  );
-};
+  )
+}
 
-export default ProjectCard;
+export default ProjectCard
