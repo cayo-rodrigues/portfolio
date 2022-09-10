@@ -51,7 +51,8 @@ export const projectList: IProject[] = [
       en: 'GSiC means "Grocery Store in C". It is a command line program, developed in C, capable of accomplishing some common tasks in a grocery store cashier',
     },
     logoSrc: PL.gsicImg,
-    projectLink: "https://pypi.org/project/dj-drf-utils/",
+    projectLink:
+      "https://drive.google.com/file/d/1yQ8eaLHOqkbEe810dovin0SWaka78f52/view?usp=sharing",
     repoLink: "https://github.com/cayo-rodrigues/gsic",
   },
   {
