@@ -11,7 +11,7 @@ export const projectList: IProject[] = [
       en: "A backend app, which allows users to look for movies, see where each one are playing, the prices in each place and buy tickets online. Also, cinema managers can register their cinemas and manage their movie sessions.",
     },
     logoSrc: PL.primeiraFilaImg,
-    projectLink: "http://primeira-fila.herokuapp.com/docs/",
+    projectLink: "https://primeira-fila-api.up.railway.app/docs/",
     repoLink: "https://github.com/cayo-rodrigues/primeira-fila",
   },
   {
