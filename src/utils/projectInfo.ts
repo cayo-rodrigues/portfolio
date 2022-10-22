@@ -62,7 +62,7 @@ export const projectList: IProject[] = [
       en: "My first full stack project. It is a social network for sharing puns, where users can like and leave comments to each other's puns.",
     },
     logoSrc: PL.joKingImg,
-    projectLink: "https://jo-king.herokuapp.com/",
+    projectLink: "https://joking.onrender.com/",
     repoLink: "https://github.com/cayo-rodrigues/joking",
   },
   {
