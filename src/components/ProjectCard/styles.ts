@@ -31,6 +31,10 @@ export const CardContainer = styled.div`
       display: flex;
       align-items: center;
     }
+
+    @media ${devices.laptop} {
+      height: calc(1.2rem * 7);
+    }
   }
 
   @media ${devices.tablet} {

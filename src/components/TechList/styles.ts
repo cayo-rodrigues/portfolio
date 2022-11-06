@@ -29,5 +29,9 @@ export const TechListContainer = styled.ul`
     @media ${devices.laptop} {
       width: 16.66%;
     }
+
+    @media ${devices.laptopXL} {
+      width: 14.285714%;
+    }
   }
 `

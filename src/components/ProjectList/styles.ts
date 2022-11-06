@@ -19,4 +19,13 @@ export const ProjectsContainer = styled.ul`
       width: 48.5%;
     }
   }
+
+  @media ${devices.laptopXL} {
+    justify-content: space-between;
+    gap: unset;
+
+    li {
+      width: 32%;
+    }
+  }
 `

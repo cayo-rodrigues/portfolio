@@ -29,12 +29,12 @@ export const techList: ITech[] = [
     name: "Javascript",
   },
   {
-    logoSrc: TL.typeormImg,
-    name: "TypeORM",
-  },
-  {
     logoSrc: TL.expressImg,
     name: "Express",
+  },
+  {
+    logoSrc: TL.typeormImg,
+    name: "TypeORM",
   },
   {
     logoSrc: TL.htmlImg,

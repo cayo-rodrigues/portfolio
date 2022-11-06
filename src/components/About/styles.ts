@@ -35,6 +35,8 @@ export const AboutContainer = styled.section`
   }
 
   @media ${devices.laptopL} {
+    padding: 3% 0;
+    
     p {
       font-size: 1.2rem;
     }

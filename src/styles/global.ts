@@ -102,6 +102,7 @@ const sizes = {
   tablet: "768px",
   laptop: "1024px",
   laptopL: "1440px",
+  laptopXL: "1920px",
   _4k: "2560px",
 }
 
@@ -112,5 +113,6 @@ export const devices = {
   tablet: `(min-width: ${sizes.tablet})`,
   laptop: `(min-width: ${sizes.laptop})`,
   laptopL: `(min-width: ${sizes.laptopL})`,
+  laptopXL: `(min-width: ${sizes.laptopXL})`,
   desktop: `(min-width: ${sizes._4k})`,
 }

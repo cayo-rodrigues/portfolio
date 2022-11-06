@@ -38,6 +38,15 @@ export const AsideContainer = styled.aside`
       top: 8%;
     }
   }
+
+  @media ${devices.laptopXL} {
+    flex: 0.75;
+
+    img {
+      width: 80%;
+      margin-right: -10%;
+    }
+  }
 `
 
 export const FooterContainer = styled.footer``
