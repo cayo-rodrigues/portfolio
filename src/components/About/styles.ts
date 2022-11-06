@@ -33,4 +33,10 @@ export const AboutContainer = styled.section`
       margin-top: 2%;
     }
   }
+
+  @media ${devices.laptopL} {
+    p {
+      font-size: 1.2rem;
+    }
+  }
 `

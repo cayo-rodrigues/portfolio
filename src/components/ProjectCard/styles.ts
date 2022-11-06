@@ -36,6 +36,12 @@ export const CardContainer = styled.div`
   @media ${devices.tablet} {
     margin: 6% 0 0 0;
   }
+
+  @media ${devices.laptopL} {
+    p {
+      font-size: 1rem;
+    }
+  }
 `;
 
 export const CardButtonsContainer = styled.div`
