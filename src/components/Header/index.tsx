@@ -35,7 +35,7 @@ const Header = () => {
           rel="noopener noreferrer"
         >
           <ContactIcon contactType={"github"}>
-            <FaGithub size={"1.2rem"} />
+            <FaGithub size={"1.2rem"} /> <span>Github</span>
           </ContactIcon>
         </a>
 
@@ -45,7 +45,7 @@ const Header = () => {
           rel="noopener noreferrer"
         >
           <ContactIcon contactType={"linkedin"}>
-            <FaLinkedin size={"1.2rem"} />
+            <FaLinkedin size={"1.2rem"} /> <span>Linkedin</span>
           </ContactIcon>
         </a>
       </ContactContainer>

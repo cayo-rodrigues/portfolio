@@ -73,6 +73,10 @@ export const ContactIcon = styled.span<IContactIconContainerProps>`
   transition: var(--transition);
   cursor: pointer;
 
+  > span {
+    display: none;
+  }
+
   :active {
     svg {
       transform: scale(0.9);
@@ -93,8 +97,22 @@ export const ContactIcon = styled.span<IContactIconContainerProps>`
             background: var(--color-github-hover);
           }
         `};
+  
+  @media ${devices.mobileL} {
+    svg {
+      margin-right: 0.5rem;
+    }
+    
+    > span {
+      display: inline;
+    }
+  }
 
   @media ${devices.tablet} {
     padding: 12px 24px;
+
+    svg {
+      margin-right: 1rem;
+    }
   }
 `
