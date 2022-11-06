@@ -31,7 +31,7 @@ export const projectList: IProject[] = [
       en: "An api whose purpose in life is to manage many proccess related to a restaraut's workflow, having a semi-automatic inventory control system.",
     },
     logoSrc: PL.yocaImg,
-    projectLink: "https://cayoca.herokuapp.com/api/docs/",
+    projectLink: "https://cayoca.up.railway.app/",
     repoLink: "https://github.com/cayo-rodrigues/yoca",
   },
   {
