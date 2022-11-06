@@ -7,6 +7,12 @@ export const Container = styled.header`
   display: flex;
   justify-content: space-between;
   background: #1f1f1f;
+
+  @media ${devices.laptop} {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
 `
 export const ContactContainer = styled.div`
   width: fit-content;
@@ -97,12 +103,12 @@ export const ContactIcon = styled.span<IContactIconContainerProps>`
             background: var(--color-github-hover);
           }
         `};
-  
+
   @media ${devices.mobileL} {
     svg {
       margin-right: 0.5rem;
     }
-    
+
     > span {
       display: inline;
     }

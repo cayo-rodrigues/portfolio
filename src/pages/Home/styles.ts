@@ -33,19 +33,15 @@ export const AsideContainer = styled.aside`
     align-items: flex-start;
 
     img {
-      width: 70%;
+      width: 80%;
       position: sticky;
       top: 8%;
+      margin-right: -10%;
     }
   }
 
   @media ${devices.laptopXL} {
     flex: 0.75;
-
-    img {
-      width: 80%;
-      margin-right: -10%;
-    }
   }
 `
 
