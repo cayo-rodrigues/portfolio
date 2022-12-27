@@ -26,6 +26,7 @@ export const GlobalStyle = createGlobalStyle`
 
     --color-white: #fff;
     --color-off-white: #eee;
+    --color-light-gray: #888;
     --color-dark-gray: #444;
     --color-dark-gray-hover: #3a3a3a;
     --color-dark-gray-active: #333;

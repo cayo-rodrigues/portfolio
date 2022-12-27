@@ -40,24 +40,18 @@ export const LangButton = styled.button<ILangButtonProps>`
   ${(props) =>
     props.selected
       ? css`
-          color: var(--color-black);
-          background: var(--color-off-white);
-          border: 1px solid var(--color-black);
-          box-shadow: inset 0px 0px 3px var(--color-black);
-
-          :hover {
-            box-shadow: inset 0px 0px 5px var(--color-black);
-          }
+          background: transparent;
+          border: 1px solid var(--color-light-gray);
         `
       : css`
+          color: var(--color-light-gray);
           background: transparent;
-          border: 1px solid var(--color-off-white);
-          box-shadow: inset 0px 0px 3px var(--color-off-white);
-
-          :hover {
-            box-shadow: inset 0px 0px 5px var(--color-off-white);
-          }
+          border: 1px solid var(--color-black);
         `};
+
+  :hover {
+    box-shadow: inset 0px 0px 3px var(--color-off-white);
+  }
 
   :active {
     > span {
