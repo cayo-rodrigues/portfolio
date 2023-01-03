@@ -21,8 +21,7 @@ export const ProjectsContainer = styled.ul`
   }
 
   @media ${devices.laptopXL} {
-    justify-content: space-between;
-    gap: unset;
+    gap: 2%;
 
     li {
       width: 32%;
