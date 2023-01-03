@@ -5,6 +5,17 @@ import * as PL from "./projectLogos"
 
 export const projectList: IProject[] = [
   {
+    title: "NFF - Nota Fiscal Fácil",
+    description: {
+      pt: "Automatiza processos repetitivos que funcionários públicos que trabalham no SIAT (ou qualquer pessoa na verdade) fazem para gerar e baixar notas fiscais no site do Siare.",
+      en: "Automate repetitive processes that government employees who work on SIAT sector (or actually anyone) do for generating and downloading invoices on Siare's website.",
+    },
+    logoSrc: PL.nffImg,
+    projectLink:
+      "https://drive.google.com/file/d/1so-2FLdHQxLCb8YIMhBXDHJMtxAYycwF/view?usp=share_link",
+    repoLink: "https://github.com/cayo-rodrigues/nff",
+  },
+  {
     title: "Primeira Fila",
     description: {
       pt: "Uma aplicação backend que permite um usuário ver quais filmes estão em cartaz e onde eles estão sendo exibidos, além de comprar ingressos online. Ao mesmo tempo, gerentes de cinema podem cadastrar seus cinemas e gerenciá-los.",

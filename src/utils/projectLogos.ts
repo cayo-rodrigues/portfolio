@@ -5,6 +5,7 @@ import bolinhaImg from "../assets/projectLogos/bolinha.png"
 import joKingImg from "../assets/projectLogos/jk.png"
 import pypiImg from "../assets/projectLogos/pypi.png"
 import gsicImg from "../assets/projectLogos/gsic.png"
+import nffImg from "../assets/projectLogos/nff.png"
 
 export {
   pwImg,
@@ -14,4 +15,5 @@ export {
   joKingImg,
   pypiImg,
   gsicImg,
+  nffImg,
 }
