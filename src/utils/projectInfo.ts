@@ -16,6 +16,16 @@ export const projectList: IProject[] = [
     repoLink: "https://github.com/cayo-rodrigues/nff",
   },
   {
+    title: "Django Awesome Tools",
+    description: {
+      pt: "Um pacote Python que possui funções e classes úteis para serem usadas em projetos Django, especialmente com Django Rest Framework, feito para facilitar a vida de desenvolvedores.",
+      en: "A Python package, containing useful functions and classes to be used in Django and Django Rest Framework projects. It abstracts away some boiler plate code and common behaviors.",
+    },
+    logoSrc: PL.awesomeToolsImg,
+    projectLink: "https://pypi.org/project/django-awesome-tools/",
+    repoLink: "https://github.com/cayo-rodrigues/django-awesome-tools",
+  },
+  {
     title: "Primeira Fila",
     description: {
       pt: "Uma aplicação backend que permite um usuário ver quais filmes estão em cartaz e onde eles estão sendo exibidos, além de comprar ingressos online. Ao mesmo tempo, gerentes de cinema podem cadastrar seus cinemas e gerenciá-los.",
@@ -44,16 +54,6 @@ export const projectList: IProject[] = [
     logoSrc: PL.yocaImg,
     projectLink: "https://cayoca.up.railway.app/api/docs/",
     repoLink: "https://github.com/cayo-rodrigues/yoca",
-  },
-  {
-    title: "dj-drf-utils",
-    description: {
-      pt: "Um pacote Python que possui funções e classes úteis para serem usadas em projetos Django, especialmente com Django Rest Framework, feito para facilitar a vida de desenvolvedores.",
-      en: "A Python package, containing useful functions and classes to be used in Django and Django Rest Framework projects. It abstracts away some boiler plate code and common behaviors.",
-    },
-    logoSrc: PL.pypiImg,
-    projectLink: "https://pypi.org/project/dj-drf-utils/",
-    repoLink: "https://github.com/cayo-rodrigues/dj-drf-utils",
   },
   {
     title: "GSiC",
