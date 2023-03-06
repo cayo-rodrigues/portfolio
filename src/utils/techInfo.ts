@@ -33,10 +33,6 @@ export const techList: ITech[] = [
     name: "Express",
   },
   {
-    logoSrc: TL.typeormImg,
-    name: "TypeORM",
-  },
-  {
     logoSrc: TL.htmlImg,
     name: "HTML",
   },
@@ -53,6 +49,10 @@ export const techList: ITech[] = [
     name: "PostgreSQL",
   },
   {
+    logoSrc: TL.mysqlImg,
+    name: "MySQL",
+  },
+  {
     logoSrc: TL.sqliteImg,
     name: "SQLite",
   },
@@ -61,19 +61,23 @@ export const techList: ITech[] = [
     name: "Redis",
   },
   {
-    logoSrc: TL.awsImg,
-    name: "Amazon S3",
-  },
-  {
     logoSrc: TL.dockerImg,
     name: "Docker",
   },
   {
-    logoSrc: TL.ubuntuImg,
-    name: "Ubuntu",
+    logoSrc: TL.linuxImg,
+    name: "Linux",
   },
   {
     logoSrc: TL.gitImg,
     name: "Git",
+  },
+  {
+    logoSrc: TL.githubLogo,
+    name: "Github",
+  },
+  {
+    logoSrc: TL.seleniumImg,
+    name: "Selenium",
   },
 ]
