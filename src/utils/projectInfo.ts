@@ -7,12 +7,12 @@ export const projectList: IProject[] = [
   {
     title: "NFF - Nota Fiscal Fácil",
     description: {
-      pt: "Automatiza processos repetitivos que funcionários públicos que trabalham no SIAT (ou qualquer pessoa na verdade) fazem para gerar e baixar notas fiscais no site do Siare.",
-      en: "Automate repetitive processes that government employees who work on SIAT sector (or actually anyone) do for generating and downloading invoices on Siare's website.",
+      pt: "Automatiza processos repetitivos que funcionários públicos (ou qualquer pessoa na verdade) fazem para gerar e baixar notas fiscais em um site do governo chamado Siare.",
+      en: "Automate repetitive processes that government employees (or actually anyone) usualy do for generating and downloading invoices on a government website called Siare.",
     },
     logoSrc: PL.nffImg,
     projectLink:
-      "https://drive.google.com/file/d/1so-2FLdHQxLCb8YIMhBXDHJMtxAYycwF/view?usp=share_link",
+      "https://drive.google.com/drive/folders/180rHhnaaYthR6vMIpC66EyzB6u8MQlhP",
     repoLink: "https://github.com/cayo-rodrigues/nff",
   },
   {
