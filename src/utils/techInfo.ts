@@ -9,6 +9,26 @@ export const techList: ITech[] = [
     name: "Python",
   },
   {
+    logoSrc: TL.tsImg,
+    name: "Typescript",
+  },
+  {
+    logoSrc: TL.jsImg,
+    name: "Javascript",
+  },
+  {
+    logoSrc: TL.cImg,
+    name: "C",
+  },
+  {
+    logoSrc: TL.htmlImg,
+    name: "HTML",
+  },
+  {
+    logoSrc: TL.cssImg,
+    name: "CSS",
+  },
+  {
     logoSrc: TL.djImg,
     name: "Django",
   },
@@ -21,28 +41,12 @@ export const techList: ITech[] = [
     name: "Node.js",
   },
   {
-    logoSrc: TL.tsImg,
-    name: "Typescript",
-  },
-  {
-    logoSrc: TL.jsImg,
-    name: "Javascript",
-  },
-  {
     logoSrc: TL.expressImg,
     name: "Express",
   },
   {
-    logoSrc: TL.htmlImg,
-    name: "HTML",
-  },
-  {
-    logoSrc: TL.cssImg,
-    name: "CSS",
-  },
-  {
-    logoSrc: TL.cImg,
-    name: "C",
+    logoSrc: TL.seleniumImg,
+    name: "Selenium",
   },
   {
     logoSrc: TL.psqlImg,
@@ -75,9 +79,5 @@ export const techList: ITech[] = [
   {
     logoSrc: TL.githubLogo,
     name: "Github",
-  },
-  {
-    logoSrc: TL.seleniumImg,
-    name: "Selenium",
   },
 ]
