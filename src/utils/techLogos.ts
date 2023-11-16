@@ -2,9 +2,11 @@
 import expressImg from "../assets/techLogos/express.svg"
 import sqliteImg from "../assets/techLogos/sqlite.png"
 import djImg from "../assets/techLogos/dj.png"
-import githubLogo from "../assets/techLogos/github.svg"
+import githubImg from "../assets/techLogos/github.svg"
+import htmxImg from "../assets/techLogos/htmx.png"
+import typeORMImg from "../assets/techLogos/typeorm.png"
 
-export { expressImg, sqliteImg, djImg, githubLogo }
+export { expressImg, sqliteImg, djImg, githubImg, htmxImg, typeORMImg }
 
 // remote tech logos
 export const pyImg =
@@ -37,3 +39,9 @@ export const gitImg =
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
 export const seleniumImg =
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg"
+export const goImg =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg"
+export const tailwindImg =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+export const awsImg =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg"

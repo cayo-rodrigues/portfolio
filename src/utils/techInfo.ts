@@ -5,28 +5,20 @@ import * as TL from "./techLogos"
 
 export const techList: ITech[] = [
   {
+    logoSrc: TL.pyImg,
+    name: "Python",
+  },
+  {
     logoSrc: TL.djImg,
     name: "Django",
-  },
-  {
-    logoSrc: TL.reactImg,
-    name: "React",
-  },
-  {
-    logoSrc: TL.nodeImg,
-    name: "Node.js",
-  },
-  {
-    logoSrc: TL.expressImg,
-    name: "Express",
   },
   {
     logoSrc: TL.seleniumImg,
     name: "Selenium",
   },
   {
-    logoSrc: TL.pyImg,
-    name: "Python",
+    logoSrc: TL.nodeImg,
+    name: "Node.js",
   },
   {
     logoSrc: TL.tsImg,
@@ -37,6 +29,22 @@ export const techList: ITech[] = [
     name: "Javascript",
   },
   {
+    logoSrc: TL.reactImg,
+    name: "React",
+  },
+  {
+    logoSrc: TL.expressImg,
+    name: "Express",
+  },
+  {
+    logoSrc: TL.typeORMImg,
+    name: "TypeORM",
+  },
+  {
+    logoSrc: TL.goImg,
+    name: "Go",
+  },
+  {
     logoSrc: TL.cImg,
     name: "C",
   },
@@ -45,8 +53,16 @@ export const techList: ITech[] = [
     name: "HTML",
   },
   {
+    logoSrc: TL.htmxImg,
+    name: "HTMX",
+  },
+  {
     logoSrc: TL.cssImg,
     name: "CSS",
+  },
+  {
+    logoSrc: TL.tailwindImg,
+    name: "Tailwind",
   },
   {
     logoSrc: TL.psqlImg,
@@ -69,6 +85,10 @@ export const techList: ITech[] = [
     name: "Docker",
   },
   {
+    logoSrc: TL.awsImg,
+    name: "AWS",
+  },
+  {
     logoSrc: TL.linuxImg,
     name: "Linux",
   },
@@ -77,7 +97,7 @@ export const techList: ITech[] = [
     name: "Git",
   },
   {
-    logoSrc: TL.githubLogo,
+    logoSrc: TL.githubImg,
     name: "Github",
   },
 ]

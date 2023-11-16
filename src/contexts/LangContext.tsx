@@ -7,7 +7,7 @@ const LangContext = createContext<ILangContextData>({} as ILangContextData)
 export const useLang = () => useContext(LangContext)
 
 export const LangProvider = ({ children }: IParentComponentProps) => {
-  const [currentLang, setCurrentLang] = useState<ILang>("pt")
+  const [currentLang, setCurrentLang] = useState<ILang>("en")
 
   const switchLang = (lang: ILang) => {
     setCurrentLang(lang)
