@@ -8,7 +8,7 @@ export const projectList: IProject[] = [
     title: "NFF - Nota Fiscal Fácil",
     description: {
       pt: "Automatização de emissão, cancelamento e download de notas fiscais, além de levantamento de dados sobre vendas e compras para produtores rurais em um site do governo chamado Siare.",
-      en: "Automation of invoices requirement, canceling and download, in addition to data aggregation about income and expenses for farmers in a government website called Siare.",
+      en: "Automation of invoices requirement, canceling and download, as well as data aggregation about income and expenses for farmers in a government website called Siare.",
     },
     logoSrc: PL.nffImg,
     projectLink: "https://drive.google.com/drive/folders/180rHhnaaYthR6vMIpC66EyzB6u8MQlhP",

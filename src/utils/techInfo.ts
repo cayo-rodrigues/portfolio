@@ -33,10 +33,6 @@ export const techList: ITech[] = [
     name: "React",
   },
   {
-    logoSrc: TL.expressImg,
-    name: "Express",
-  },
-  {
     logoSrc: TL.typeORMImg,
     name: "TypeORM",
   },
@@ -99,5 +95,9 @@ export const techList: ITech[] = [
   {
     logoSrc: TL.githubImg,
     name: "Github",
+  },
+  {
+    logoSrc: TL.ghActionsImg,
+    name: "CI / CD",
   },
 ]

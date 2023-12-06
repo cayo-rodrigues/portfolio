@@ -5,8 +5,9 @@ import djImg from "../assets/techLogos/dj.png"
 import githubImg from "../assets/techLogos/github.svg"
 import htmxImg from "../assets/techLogos/htmx.png"
 import typeORMImg from "../assets/techLogos/typeorm.png"
+import ghActionsImg from "../assets/techLogos/actions.png"
 
-export { expressImg, sqliteImg, djImg, githubImg, htmxImg, typeORMImg }
+export { expressImg, sqliteImg, djImg, githubImg, htmxImg, typeORMImg, ghActionsImg }
 
 // remote tech logos
 export const pyImg =
