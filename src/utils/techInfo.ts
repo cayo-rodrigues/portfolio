@@ -5,20 +5,16 @@ import * as TL from "./techLogos"
 
 export const techList: ITech[] = [
   {
+    logoSrc: TL.nodeImg,
+    name: "Node.js",
+  },
+  {
     logoSrc: TL.pyImg,
     name: "Python",
   },
   {
-    logoSrc: TL.djImg,
-    name: "Django",
-  },
-  {
-    logoSrc: TL.seleniumImg,
-    name: "Selenium",
-  },
-  {
-    logoSrc: TL.nodeImg,
-    name: "Node.js",
+    logoSrc: TL.goImg,
+    name: "Go",
   },
   {
     logoSrc: TL.tsImg,
@@ -29,28 +25,32 @@ export const techList: ITech[] = [
     name: "Javascript",
   },
   {
-    logoSrc: TL.reactImg,
-    name: "React",
+    logoSrc: TL.htmlImg,
+    name: "HTML",
   },
   {
-    logoSrc: TL.goImg,
-    name: "Go",
+    logoSrc: TL.cssImg,
+    name: "CSS",
   },
   {
     logoSrc: TL.cImg,
     name: "C",
   },
   {
-    logoSrc: TL.htmlImg,
-    name: "HTML",
+    logoSrc: TL.reactImg,
+    name: "React",
+  },
+  {
+    logoSrc: TL.djImg,
+    name: "Django",
+  },
+  {
+    logoSrc: TL.seleniumImg,
+    name: "Selenium",
   },
   {
     logoSrc: TL.htmxImg,
     name: "HTMX",
-  },
-  {
-    logoSrc: TL.cssImg,
-    name: "CSS",
   },
   {
     logoSrc: TL.tailwindImg,

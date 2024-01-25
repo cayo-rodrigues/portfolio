@@ -53,24 +53,22 @@ const About = () => {
         </>
       ) : (
         <>
+          <p>Greetings! My name is Cayo Rodrigues.</p>
           <p>
-            Hi, my name is Cayo Rodrigues. I never thought that working with
-            technology would be a thing for me. However, in late 2020, a friend
-            of mine encouraged me to take{" "}
-            <a href="https://cs50.harvard.edu/x/2023/">CS50x</a>, which is
-            Harvard’s introduction to Computer Science. That opened my mind in
-            such a way that made me just love problem solving with programming.
+            My journey in the world of technology began unexpectedly in late
+            2020 when a friend encouraged me to explore{" "}
+            <a href="https://cs50.harvard.edu/x/2023/">CS50x</a>, Harvard’s
+            Introduction to Computer Science. Little did I know that this step
+            would ignite my passion for problem-solving through programming.
           </p>
           <p>
-            Some time later, that same friend told me about{" "}
-            <a href="https://kenzie.com.br/">Kenzie Academy</a>, where I took an
-            amazing full stack web development course. During the course, I had
-            the opportunity to work in team projects, to work with scrum and to
-            learn new technologies. Besides that, I had a really good training
-            on how to take my first steps into the job market.
+            Shortly after, I enrolled in a Full Stack Web Development course at{" "}
+            <a href="https://kenzie.com.br/">Kenzie Academy</a>, where I honed
+            both my hard and soft skills and embraced the collaborative spirit
+            of team projects.
           </p>
           <p>
-            Currently I'm a software developer at{" "}
+            Currently, I'm a member of the software development team at{" "}
             <a
               href="https://contele.com.br/"
               target="_blank"
@@ -78,7 +76,16 @@ const About = () => {
             >
               Contele Soluções Tecnológicas
             </a>
-            .
+            , where I've had the privilege of contributing to meaningful
+            projects. The dynamic nature of my work has allowed me to
+            continuously expand my skills and navigate various technologies and
+            tools.
+          </p>
+          <p>
+            Beyond my professional endeavors, I'm dedicated to ongoing learning.
+            Whether through my role at Contele or personal projects, I'm always
+            exploring new techs. It's in these independent ventures that I've
+            found joy in tackling challenges and crafting impactful solutions.
           </p>
         </>
       )}
