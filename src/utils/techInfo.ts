@@ -33,10 +33,6 @@ export const techList: ITech[] = [
     name: "React",
   },
   {
-    logoSrc: TL.typeORMImg,
-    name: "TypeORM",
-  },
-  {
     logoSrc: TL.goImg,
     name: "Go",
   },
