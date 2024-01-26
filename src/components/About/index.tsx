@@ -1,31 +1,25 @@
-import { useLang } from "../../contexts/LangContext"
-import { AboutContainer } from "./styles"
+import { useLang } from "../../contexts/LangContext";
+import { AboutContainer } from "./styles";
 
 const About = () => {
-  const { currentLang } = useLang()
+  const { currentLang } = useLang();
 
   return (
     <AboutContainer>
       {currentLang === "pt" ? (
         <>
+          <p>Oi, meu nome é Cayo Rodrigues.</p>
           <p>
-            Oi, meu nome é Cayo Rodrigues. Particularmente, nunca pensei que a
-            área de tecnologia fosse para mim. Até que no final de 2020, um
-            amigo me indicou o{" "}
+            Sou um desenvolvedor de software com uma base em ciência da
+            computação pelo{" "}
             <a
               href="https://cs50.harvard.edu/x/2023/"
               target="_blank"
               rel="noopener noreferrer"
             >
               CS50x
-            </a>
-            , um curso de introdução à Ciência da Computação de Harvard. Aquilo
-            abriu minha mente para o mundo da programação, e eu fiquei
-            impressionado de ver como gostei disso. Passei a entender vários
-            conceitos que antes eram um mistério na minha cabeça.
-          </p>
-          <p>
-            Um tempo depois aquele mesmo amigo me indicou a{" "}
+            </a>{" "}
+            de Harvard e formação em desenvolvimento web full stack pela{" "}
             <a
               href="https://kenzie.com.br/"
               target="_blank"
@@ -33,14 +27,11 @@ const About = () => {
             >
               Kenzie Academy
             </a>
-            , onde fiz um curso incrível de desenvolvimento web full stack.
-            Durante essa formação, tive a oportunidade de trabalhar em projetos
-            feitos em equipe com metodologias ágeis e aprender novas
-            tecnologias, além de ser muito bem preparado para conseguir entrar
-            no mercado de trabalho.
+            .
           </p>
           <p>
-            Atualmente, trabalho como desenvolvedor de software na empresa{" "}
+            Atualmente, sou um membro valioso da equipe de desenvolvimento de
+            software na empresa{" "}
             <a
               href="https://contele.com.br/"
               target="_blank"
@@ -48,7 +39,12 @@ const About = () => {
             >
               Contele Soluções Tecnológicas
             </a>
-            .
+            , contribuindo ativamente para projetos impactantes.
+          </p>
+          <p>
+            Bem familiarizado com diversas tecnologias, mantenho um compromisso
+            contínuo com a aprendizagem, tanto em ambientes profissionais quanto
+            em projetos independentes.
           </p>
         </>
       ) : (
@@ -90,7 +86,7 @@ const About = () => {
         </>
       )}
     </AboutContainer>
-  )
-}
+  );
+};
 
-export default About
+export default About;
