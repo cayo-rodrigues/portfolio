@@ -11,7 +11,7 @@ export const projectList: IProject[] = [
       en: "Automation of invoices requirement, canceling and download, as well as data aggregation about income and expenses for farmers in a government website called Siare.",
     },
     logoSrc: PL.nffImg,
-    projectLink: "http://ec2-18-230-92-247.sa-east-1.compute.amazonaws.com/",
+    projectLink: "http://ec2-52-67-84-134.sa-east-1.compute.amazonaws.com/",
     repoLink: "https://github.com/cayo-rodrigues/nff",
   },
   {
