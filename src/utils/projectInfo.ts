@@ -8,10 +8,10 @@ export const projectList: IProject[] = [
     title: "NFF - Nota Fiscal Fácil",
     description: {
       pt: "Automatização de emissão, cancelamento e download de notas fiscais, além de levantamento de dados sobre vendas e compras para produtores rurais em um site do governo chamado Siare.",
-      en: "Automation of invoices requirement, canceling and download, as well as data aggregation about income and expenses for farmers in a government website called Siare.",
+      en: "Automation of invoices issuing, canceling and download, as well as data aggregation about income and expenses for farmers in a government website called Siare.",
     },
     logoSrc: PL.nffImg,
-    projectLink: "http://ec2-18-230-92-247.sa-east-1.compute.amazonaws.com/",
+    projectLink: "http://notafiscalfacil.com",
     repoLink: "https://github.com/cayo-rodrigues/nff",
   },
   {
