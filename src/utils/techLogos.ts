@@ -43,6 +43,6 @@ export const seleniumImg =
 export const goImg =
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg"
 export const tailwindImg =
-  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
 export const awsImg =
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg"
