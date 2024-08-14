@@ -15,6 +15,16 @@ export const projectList: IProject[] = [
     repoLink: "https://github.com/cayo-rodrigues/nff",
   },
   {
+    title: "Safe",
+    description: {
+      pt: "Uma biblioteca de validação simples, mas poderosa para programas escritos em Go. Nunca confie no seu usuário. Use este pacote para validar qualquer coisa que precisar, e você saberá que está seguro!",
+      en: "Simple, yet powerful validation library for Go programs. User input is unpredictable. Never trust it. Use this library to validate anything you want, and you know you're safe!",
+    },
+    logoSrc: PL.safeImg,
+    projectLink: "https://pkg.go.dev/github.com/cayo-rodrigues/safe",
+    repoLink: "https://github.com/cayo-rodrigues/safe",
+  },
+  {
     title: "Django Awesome Tools",
     description: {
       pt: "Um pacote Python que possui funcionalidades úteis para serem usadas em projetos Django, especialmente com Django Rest Framework, feito para facilitar a vida de desenvolvedores.",

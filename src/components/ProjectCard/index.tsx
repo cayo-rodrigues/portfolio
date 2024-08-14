@@ -24,7 +24,7 @@ const ProjectCard = React.memo(
       <CardContainer>
         <LogoImg
           src={logoSrc}
-          alt="Proworking logo"
+          alt={title}
           width="30%"
           widthMobile="36%"
         />

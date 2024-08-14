@@ -6,6 +6,7 @@ import joKingImg from "../assets/projectLogos/jk.png"
 import awesomeToolsImg from "../assets/projectLogos/django-awesome-tools.png"
 import gsicImg from "../assets/projectLogos/gsic.png"
 import nffImg from "../assets/projectLogos/nff.png"
+import safeImg from "../assets/projectLogos/safe.png"
 
 export {
   pwImg,
@@ -16,4 +17,5 @@ export {
   awesomeToolsImg,
   gsicImg,
   nffImg,
+  safeImg,
 }
