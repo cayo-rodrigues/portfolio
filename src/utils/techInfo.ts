@@ -41,6 +41,10 @@ export const techList: ITech[] = [
     name: "React",
   },
   {
+    logoSrc: TL.knexImg,
+    name: "Knex",
+  },
+  {
     logoSrc: TL.djImg,
     name: "Django",
   },
@@ -79,6 +83,10 @@ export const techList: ITech[] = [
   {
     logoSrc: TL.awsImg,
     name: "AWS",
+  },
+  {
+    logoSrc: TL.nginxImg,
+    name: "Nginx",
   },
   {
     logoSrc: TL.linuxImg,

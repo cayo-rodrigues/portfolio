@@ -46,3 +46,9 @@ export const tailwindImg =
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
 export const awsImg =
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg"
+export const nginxImg =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg"
+export const knexImg =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/knexjs/knexjs-original.svg"
+export const k8sImg =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-original.svg"
