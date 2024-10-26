@@ -52,3 +52,11 @@ export const knexImg =
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/knexjs/knexjs-original.svg"
 export const k8sImg =
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-original.svg"
+export const grpcImg =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grpc/grpc-original.svg"
+export const nextjsImg =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+export const jestImg =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
+export const pytestImg =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytest/pytest-original.svg"

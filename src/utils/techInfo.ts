@@ -40,9 +40,13 @@ export const techList: ITech[] = [
     logoSrc: TL.reactImg,
     name: "React",
   },
+  // {
+  //   logoSrc: TL.nextjsImg,
+  //   name: "Next.js",
+  // },
   {
-    logoSrc: TL.knexImg,
-    name: "Knex",
+    logoSrc: TL.jestImg,
+    name: "Jest",
   },
   {
     logoSrc: TL.djImg,
@@ -52,6 +56,10 @@ export const techList: ITech[] = [
     logoSrc: TL.seleniumImg,
     name: "Selenium",
   },
+  // {
+  //   logoSrc: TL.pytestImg,
+  //   name: "Pytest",
+  // },
   {
     logoSrc: TL.htmxImg,
     name: "HTMX",
@@ -80,6 +88,10 @@ export const techList: ITech[] = [
     logoSrc: TL.dockerImg,
     name: "Docker",
   },
+  // {
+  //   logoSrc: TL.k8sImg,
+  //   name: "Kubernetes",
+  // },
   {
     logoSrc: TL.awsImg,
     name: "AWS",
@@ -88,9 +100,13 @@ export const techList: ITech[] = [
     logoSrc: TL.nginxImg,
     name: "Nginx",
   },
+  // {
+  //   logoSrc: TL.grpcImg,
+  //   name: "gRPC",
+  // },
   {
-    logoSrc: TL.linuxImg,
-    name: "Linux",
+    logoSrc: TL.ghActionsImg,
+    name: "CI / CD",
   },
   {
     logoSrc: TL.gitImg,
@@ -101,7 +117,7 @@ export const techList: ITech[] = [
     name: "Github",
   },
   {
-    logoSrc: TL.ghActionsImg,
-    name: "CI / CD",
+    logoSrc: TL.linuxImg,
+    name: "Linux",
   },
 ]
