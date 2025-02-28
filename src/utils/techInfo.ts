@@ -56,10 +56,10 @@ export const techList: ITech[] = [
     logoSrc: TL.seleniumImg,
     name: "Selenium",
   },
-  // {
-  //   logoSrc: TL.pytestImg,
-  //   name: "Pytest",
-  // },
+  {
+    logoSrc: TL.pytestImg,
+    name: "Pytest",
+  },
   {
     logoSrc: TL.htmxImg,
     name: "HTMX",
@@ -100,10 +100,10 @@ export const techList: ITech[] = [
     logoSrc: TL.nginxImg,
     name: "Nginx",
   },
-  // {
-  //   logoSrc: TL.grpcImg,
-  //   name: "gRPC",
-  // },
+  {
+    logoSrc: TL.grpcImg,
+    name: "gRPC",
+  },
   {
     logoSrc: TL.ghActionsImg,
     name: "CI / CD",
