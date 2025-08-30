@@ -16,6 +16,7 @@ const ProjectList = () => {
               projectLink={project.projectLink}
               repoLink={project.repoLink}
               title={project.title}
+              logoIcon={project.logoIcon}
             />
           </li>
         ))}

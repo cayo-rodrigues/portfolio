@@ -1,9 +1,21 @@
-import { IProject } from "../interfaces/projects"
+import { IProject } from "../interfaces/projects";
+import { PiggyBankIcon } from "lucide-react";
 
 // project logos
-import * as PL from "./projectLogos"
+import * as PL from "./projectLogos";
 
 export const projectList: IProject[] = [
+  {
+    title: "Fiado Seguro",
+    description: {
+      pt: "Cansado de atrasos nas compras fiadas? O Fiado Seguro ajuda você a gerenciar, cobrar e receber o que é seu — sem dor de cabeça!",
+      en: "Tired of chasing late payments? Fiado Seguro helps you manage, track, and collect your credit purchases — without the hassle!",
+    },
+    logoSrc: "",
+    logoIcon: <PiggyBankIcon style={{ width: "30%", height: "auto" }} />,
+    projectLink: "https://fiado-seguro.vercel.app/",
+    repoLink: "",
+  },
   {
     title: "NFF - Nota Fiscal Fácil",
     description: {
@@ -11,7 +23,7 @@ export const projectList: IProject[] = [
       en: "Automation of invoices issuing, canceling and download, as well as data aggregation about income and expenses for farmers in a government website called Siare.",
     },
     logoSrc: PL.nffImg,
-    projectLink: "http://notafiscalfacil.com",
+    projectLink: "https://nff-web-railway-dev.up.railway.app/",
     repoLink: "https://github.com/cayo-rodrigues/nff",
   },
   {
@@ -95,4 +107,4 @@ export const projectList: IProject[] = [
     projectLink: "https://joking.onrender.com/",
     repoLink: "https://github.com/cayo-rodrigues/joking",
   },
-]
+];

@@ -1,7 +1,7 @@
-import { ITech } from "../interfaces/techs"
+import { ITech } from "../interfaces/techs";
 
 // tech logos
-import * as TL from "./techLogos"
+import * as TL from "./techLogos";
 
 export const techList: ITech[] = [
   {
@@ -40,10 +40,10 @@ export const techList: ITech[] = [
     logoSrc: TL.reactImg,
     name: "React",
   },
-  // {
-  //   logoSrc: TL.nextjsImg,
-  //   name: "Next.js",
-  // },
+  {
+    logoSrc: TL.nextjsImg,
+    name: "Next.js",
+  },
   {
     logoSrc: TL.jestImg,
     name: "Jest",
@@ -120,4 +120,4 @@ export const techList: ITech[] = [
     logoSrc: TL.linuxImg,
     name: "Linux",
   },
-]
+];
