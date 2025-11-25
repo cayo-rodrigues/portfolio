@@ -7,7 +7,7 @@ const TechCard = ({ logoSrc, name }: ITech) => {
   return (
     <CardContainer>
       <LogoImg alt={name} src={logoSrc} />
-      <Title size="1.2rem" wheight={500} tag="span">
+      <Title size="1.1rem" wheight={500} tag="span">
         {name}
       </Title>
     </CardContainer>

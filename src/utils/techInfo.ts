@@ -38,11 +38,15 @@ export const techList: ITech[] = [
   },
   {
     logoSrc: TL.reactImg,
-    name: "React",
+    name: "React / React Native",
   },
   {
     logoSrc: TL.nextjsImg,
     name: "Next.js",
+  },
+  {
+    logoSrc: TL.puppeteerImg,
+    name: "Puppeteer",
   },
   {
     logoSrc: TL.jestImg,
@@ -53,12 +57,36 @@ export const techList: ITech[] = [
     name: "Django",
   },
   {
+    logoSrc: TL.drfImg,
+    name: "Django Rest Framework",
+  },
+  {
     logoSrc: TL.seleniumImg,
     name: "Selenium",
   },
   {
+    logoSrc: TL.langChainImg,
+    name: "LangChain",
+  },
+  {
+    logoSrc: TL.langGraphImg,
+    name: "LangGraph",
+  },
+  {
+    logoSrc: TL.langFuseImg,
+    name: "Langfuse",
+  },
+  {
     logoSrc: TL.pytestImg,
     name: "Pytest",
+  },
+  {
+    logoSrc: TL.fiberImg,
+    name: "Fiber",
+  },
+  {
+    logoSrc: TL.templImg,
+    name: "a-h/templ",
   },
   {
     logoSrc: TL.htmxImg,
@@ -67,6 +95,14 @@ export const techList: ITech[] = [
   {
     logoSrc: TL.tailwindImg,
     name: "Tailwind",
+  },
+  {
+    logoSrc: TL.styledcomponentsImg,
+    name: "Styled Components",
+  },
+  {
+    logoSrc: TL.sqlImg,
+    name: "SQL",
   },
   {
     logoSrc: TL.psqlImg,
@@ -79,6 +115,18 @@ export const techList: ITech[] = [
   {
     logoSrc: TL.sqliteImg,
     name: "SQLite",
+  },
+  {
+    logoSrc: TL.gooseImg,
+    name: "Goose",
+  },
+  {
+    logoSrc: TL.prismaImg,
+    name: "Prisma",
+  },
+  {
+    logoSrc: TL.knexImg,
+    name: "Knex",
   },
   {
     logoSrc: TL.redisImg,
@@ -95,6 +143,14 @@ export const techList: ITech[] = [
   {
     logoSrc: TL.awsImg,
     name: "AWS",
+  },
+  {
+    logoSrc: TL.railwayImg,
+    name: "Railway",
+  },
+  {
+    logoSrc: TL.vercelImg,
+    name: "Vercel",
   },
   {
     logoSrc: TL.nginxImg,
@@ -114,7 +170,11 @@ export const techList: ITech[] = [
   },
   {
     logoSrc: TL.githubImg,
-    name: "Github",
+    name: "GitHub",
+  },
+  {
+    logoSrc: TL.gitLabImg,
+    name: "GitLab",
   },
   {
     logoSrc: TL.linuxImg,

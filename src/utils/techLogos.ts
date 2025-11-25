@@ -6,6 +6,11 @@ import githubImg from "../assets/techLogos/github.svg";
 import htmxImg from "../assets/techLogos/htmx.png";
 import typeORMImg from "../assets/techLogos/typeorm.png";
 import ghActionsImg from "../assets/techLogos/actions.png";
+import gooseImg from "../assets/techLogos/goose.png";
+import langChainImg from "../assets/techLogos/langchain.png";
+import langGraphImg from "../assets/techLogos/langgraph.png";
+import langFuseImg from "../assets/techLogos/langfuse.svg";
+import templImg from "../assets/techLogos/templ.png";
 
 export {
   expressImg,
@@ -15,6 +20,11 @@ export {
   htmxImg,
   typeORMImg,
   ghActionsImg,
+  gooseImg,
+  langChainImg,
+  langGraphImg,
+  langFuseImg,
+  templImg,
 };
 
 // remote tech logos
@@ -27,15 +37,14 @@ export const tsImg =
 export const jsImg =
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg";
 export const nodeImg =
-  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg";
+  "https://devicon-website.vercel.app/api/nodejs/original.svg";
 export const psqlImg =
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg";
 export const mysqlImg =
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg";
 export const redisImg =
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg";
-export const cImg =
-  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg";
+export const cImg = "https://devicon-website.vercel.app/api/c/original.svg";
 export const htmlImg =
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg";
 export const cssImg =
@@ -68,3 +77,21 @@ export const jestImg =
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg";
 export const pytestImg =
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytest/pytest-original.svg";
+export const drfImg =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/djangorest/djangorest-line.svg";
+export const fiberImg =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fiber/fiber-plain.svg";
+export const prismaImg =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg";
+export const gitLabImg =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg";
+export const puppeteerImg =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/puppeteer/puppeteer-original.svg";
+export const railwayImg =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/railway/railway-original.svg";
+export const sqlImg =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqldeveloper/sqldeveloper-original.svg";
+export const styledcomponentsImg =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/styledcomponents/styledcomponents-original.svg";
+export const vercelImg =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg";
