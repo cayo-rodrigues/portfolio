@@ -136,10 +136,10 @@ export const techList: ITech[] = [
     logoSrc: TL.dockerImg,
     name: "Docker",
   },
-  // {
-  //   logoSrc: TL.k8sImg,
-  //   name: "Kubernetes",
-  // },
+  {
+    logoSrc: TL.k8sImg,
+    name: "Kubernetes",
+  },
   {
     logoSrc: TL.awsImg,
     name: "AWS",
