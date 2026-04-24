@@ -8,6 +8,7 @@ import gsicImg from "../assets/projectLogos/gsic.png"
 import nffImg from "../assets/projectLogos/nff.png"
 import safeImg from "../assets/projectLogos/safe.png"
 import fiadoSeguroImg from "../assets/projectLogos/fiado-seguro.png"
+import pickPickImg from "../assets/projectLogos/pickpic.png"
 
 export {
   pwImg,
@@ -20,4 +21,5 @@ export {
   nffImg,
   safeImg,
   fiadoSeguroImg,
+  pickPickImg,
 }

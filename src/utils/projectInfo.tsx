@@ -6,6 +6,16 @@ import * as PL from "./projectLogos";
 
 export const projectList: IProject[] = [
   {
+    title: "Pick Picture",
+    description: {
+      pt: "Plataforma que ajuda fotógrafos profissionais a compartilhar ensaios com seus clientes, permitindo que escolham suas fotos favoritas em uma galeria elegante, com marca d'água automática e entrega facilitada.",
+      en: "A platform that helps professional photographers share photo shoots with clients, letting them pick their favorite shots through an elegant gallery with automatic watermarking and easy delivery.",
+    },
+    logoSrc: PL.pickPickImg,
+    projectLink: "https://pickpicture.com.br",
+    repoLink: "",
+  },
+  {
     title: "Fiado Seguro",
     description: {
       pt: "Cansado de atrasos nas compras fiadas? O Fiado Seguro ajuda você a gerenciar, cobrar e receber o que é seu — sem dor de cabeça!",

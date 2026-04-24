@@ -125,8 +125,8 @@ export const techList: ITech[] = [
     name: "Prisma",
   },
   {
-    logoSrc: TL.knexImg,
-    name: "Knex",
+    logoSrc: TL.drizzleImg,
+    name: "Drizzle",
   },
   {
     logoSrc: TL.redisImg,

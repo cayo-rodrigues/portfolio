@@ -11,6 +11,7 @@ import langChainImg from "../assets/techLogos/langchain.png";
 import langGraphImg from "../assets/techLogos/langgraph.png";
 import langFuseImg from "../assets/techLogos/langfuse.svg";
 import templImg from "../assets/techLogos/templ.png";
+import drizzleImg from "../assets/techLogos/drizzle.svg";
 
 export {
   expressImg,
@@ -25,6 +26,7 @@ export {
   langGraphImg,
   langFuseImg,
   templImg,
+  drizzleImg,
 };
 
 // remote tech logos
