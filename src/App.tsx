@@ -1,14 +1,21 @@
-import React from "react"
-import Header from "./components/Header"
-import AppRoutes from "./routes"
-import { GlobalStyle } from "./styles/global"
+import { Navbar } from "@/components/navbar"
+import { HeroSection } from "@/components/sections/hero"
+import { ExperienceSection } from "@/components/sections/experience"
+import { ProjectsSection } from "@/components/sections/projects"
+import { TechSection } from "@/components/sections/tech"
+import { Footer } from "@/components/sections/footer"
 
-const App = () => {
+export function App() {
   return (
     <>
-      <GlobalStyle />
-      <Header />
-      <AppRoutes />
+      <Navbar />
+      <main>
+        <HeroSection />
+        <ExperienceSection />
+        <ProjectsSection />
+        <TechSection />
+      </main>
+      <Footer />
     </>
   )
 }
