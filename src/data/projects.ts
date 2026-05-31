@@ -75,7 +75,7 @@ export const projects: Project[] = [
       en: "Automates invoice issuing, canceling, and downloading, as well as generating sales and purchase reports for farmers on a government website called Siare. It has saved countless hours of work.",
     },
     logoSrc: nffImg,
-    projectLink: "https://nff-web-railway-dev.up.railway.app/",
+    projectLink: "https://nff-dev.up.railway.app/",
     repoLink: "https://github.com/cayo-rodrigues/nff",
     techStack: [
       tech["Go"],
