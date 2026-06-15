@@ -48,6 +48,7 @@ import gooseImg from "@/assets/tech-logos/goose.png"
 import langChainImg from "@/assets/tech-logos/langchain.png"
 import langGraphImg from "@/assets/tech-logos/langgraph.png"
 import langFuseImg from "@/assets/tech-logos/langfuse.svg"
+import claudeCodeImg from "@/assets/tech-logos/claude-code.png"
 import templImg from "@/assets/tech-logos/templ.png"
 import drizzleImg from "@/assets/tech-logos/drizzle.svg"
 import expressImg from "@/assets/tech-logos/express.svg"
@@ -176,6 +177,7 @@ export const techs: Tech[] = [
   { name: "LangChain", logoSrc: langChainImg, category: "ai" },
   { name: "LangGraph", logoSrc: langGraphImg, category: "ai" },
   { name: "Langfuse", logoSrc: langFuseImg, category: "ai" },
+  { name: "Claude Code", logoSrc: claudeCodeImg, category: "ai" },
 
   // Databases
   { name: "SQL", logoSrc: sqlImg, category: "databases" },
